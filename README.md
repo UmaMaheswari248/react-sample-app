@@ -36,7 +36,7 @@ npm start
 
   Here header component contains nav bar:
 
-  ![nav_bar](/home/syntizen/Pictures/nav_bar.png)
+  ![nav_bar](./public/screenshots/nav_bar.png)
 
   
 
@@ -52,7 +52,7 @@ npm start
 
   ​	
 
-  ![carousel](/home/syntizen/Pictures/carousel.png)
+  ![carousel](./public/screenshots/carousel.png)
 
   ### Form Component:
 
@@ -60,25 +60,25 @@ npm start
 
   This component explains how to use form elements. how to validate form and how to handle form data
 
-  using state and how to display form data using props.
+  using states and how to display form data using props.
 
   #### Form with input elements:
 
   
 
-  ![form](/home/syntizen/Pictures/form.png)
+  ![form](./public/screenshots/form.png)
 
   #### Form validation :
 
   ​		Form validation is done using states.
 
-  ​						![form-validation](/home/syntizen/Pictures/form-validation.png)
+  ​						![form-validation](./public/screenshots/form-validation.png)
 
   #### Form Details:
 
   ​			After form submitted form details displayed as below using props.
 
-  ​							![form-details](/home/syntizen/Pictures/form-details.png)
+  ​							![form-details](./public/screenshots/form-details.png)
 
 #### Table Component:
 
@@ -90,17 +90,17 @@ Here data is displaying in table using "react-data-table-component" dependency i
 
 ##### Displaying records:
 
-​		![data-display](/home/syntizen/Pictures/data-display.png)
+​				![data-display](./public/screenshots/data-display.png)
 
 ##### Displaying records dynamically:
 
 ​				Here i entered details as below. 
 
-​		![data-fill](/home/syntizen/Pictures/data-fill.png)
+​				![data-fill](./public/screenshots/data-fill.png)			
 
-​			Whenever i click on Add button record will be inserted into the table like below
+Whenever we click on Add button record will be inserted into the table like below
 
-​						![dynamic-data](/home/syntizen/Pictures/dynamic-data.png)
+​						![dynamic-data](./public/screenshots/dynamic-data.png)
 
 # Contributing:
 

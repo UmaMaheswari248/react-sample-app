@@ -1,68 +1,111 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-sample-app
 
-## Available Scripts
+This Repo explains how to create component based structure and how to handle form data using state.s
 
-In the project directory, you can run:
+And also explains how to re-use components using props. And how to dynamically insert data into Datatable in react.
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How to Use
 
-### `npm test`
+```
+git clone https://github.com/UmaMaheswari248/react-sample-app.git
+cd react-sample-app
+open terminal 
+npm i
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What Components this app contains
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Header
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Home
 
-### `npm run eject`
+- Form
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Table
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ### Header Component:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ------
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  Header component means in every component we can use this header.
 
-## Learn More
+  Here header component contains nav bar:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ![nav_bar](/home/syntizen/Pictures/nav_bar.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
 
-### Code Splitting
+  ### Home Component
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  ------
 
-### Analyzing the Bundle Size
+  This component tells introduction about this app how to use image carousel in react.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  Using react-bootstrap dependency we can use image carousel.
 
-### Making a Progressive Web App
+  Image carousel :
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+  ​	
 
-### Advanced Configuration
+  ![carousel](/home/syntizen/Pictures/carousel.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+  ### Form Component:
 
-### Deployment
+  ------
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+  This component explains how to use form elements. how to validate form and how to handle form data
 
-### `npm run build` fails to minify
+  using state and how to display form data using props.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  #### Form with input elements:
+
+  
+
+  ![form](/home/syntizen/Pictures/form.png)
+
+  #### Form validation :
+
+  ​		Form validation is done using states.
+
+  ​						![form-validation](/home/syntizen/Pictures/form-validation.png)
+
+  #### Form Details:
+
+  ​			After form submitted form details displayed as below using props.
+
+  ​							![form-details](/home/syntizen/Pictures/form-details.png)
+
+#### Table Component:
+
+------
+
+Table component explains how to display data in the table and how to display data dynamically.
+
+Here data is displaying in table using "react-data-table-component" dependency in react.
+
+##### Displaying records:
+
+​		![data-display](/home/syntizen/Pictures/data-display.png)
+
+##### Displaying records dynamically:
+
+​				Here i entered details as below. 
+
+​		![data-fill](/home/syntizen/Pictures/data-fill.png)
+
+​			Whenever i click on Add button record will be inserted into the table like below
+
+​						![dynamic-data](/home/syntizen/Pictures/dynamic-data.png)
+
+# Contributing:
+
+Contributions in any form are welcome. You can contribute by reporting issues, submitting pull requests, reviewing pull requests, participating in discussions on issues and pull requests and more.
+
+## Reporting issues
+
+Issues can be questions, feature requests, enhancements, optimizations and more. Please use **Issues** to track them. When filing a bug, it would be helpful to provide a reproducible demonstration of the bug.
